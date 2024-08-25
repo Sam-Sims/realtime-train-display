@@ -1,5 +1,5 @@
 [project]
-name = "realtime-train-display"
+name = "rtt_display"
 version = "0.1.0"
 description = "Display realtime train depature information from any UK station using an SSD1322 OLED display and a Raspberry Pi zero."
 authors = [{name = "Sam Sims", email = "samsimss98@gmail.com"}]
@@ -20,7 +20,7 @@ dev = [
 ]
 
 [project.scripts]
-rtd = "realtime_train_display.board:main"
+rtd = "rtt_display.display:main"
 
 [build-system]
 requires = ["hatchling"]
